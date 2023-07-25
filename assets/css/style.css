@@ -1,7 +1,48 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-type: start;
+}
+
+body {
+  font-family: ocra;
+}
+
+header {
+  color: black;
+}
+
 nav {
   border: dotted black;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+main {
+  display: flex;
 }
 
 #about_me {
-  border: dotted black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: purple;
+}
+
+#contact {
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+}
+
+.project_card {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
 }
