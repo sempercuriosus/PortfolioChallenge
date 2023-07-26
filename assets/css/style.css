@@ -19,12 +19,15 @@ body {
   background-image: url(../images/ai.png);
   width: auto;
   color: white;
-  height: 100%;
+  height: 200px;
+  width: 100%;
   padding: 2em;
 }
 
 .hero img {
-  border-image-width: 100%;
+  /* border-image-width: 100%; */
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header {
