@@ -190,15 +190,31 @@ nav ul {
   padding-right: 0.5em;
 }
 
-.project_card:hover {
-  background-color: red;
+.project_link {
+  position: relative;
+}
+
+.project_link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.project_card:hover .project_overlay {
+  width: 100%;
 }
 
 .project_preview {
-  border-top: thin black solid;
+  /* border-top: thin black solid; */
   margin-top: 1em;
   padding-top: 7%;
-  border-top: thin darkgrey solid;
+  /* border-top: thin darkgrey solid; */
 }
 
 .footer {

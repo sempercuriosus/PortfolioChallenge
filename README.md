@@ -22,4 +22,5 @@ SO THAT I can review samples of their work and assess whether they're a good can
     - AI Generated Cover Art [https://pixlr.com/x/#editor]
     - https://www.w3schools.com/css/css3_images.asp
     - https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slideleft
-    - 
+    - https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
