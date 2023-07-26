@@ -28,44 +28,74 @@ main {
   flex-wrap: wrap;
 }
 
+.hero {
+  background-image: url(../images/ai.png);
+  width: auto;
+  color: white;
+  height: 50%;
+}
+
 #about_me {
   border-style: solid;
   border-width: 2px;
   border-color: purple;
-  flex: 0 0 370;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  justify-content: flex-start;
   padding-left: 1em;
+  height: 100vh;
+}
+
+img {
+  border-radius: 8px;
+}
+
+#about_me img {
+  max-width: 100%;
+  height: auto;
 }
 
 #contact {
   border-style: solid;
   border-width: 2px;
   border-color: yellow;
-  flex: 0 0 370;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   padding-left: 1em;
 }
 
-/* #projects{
-
-} */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .project_card {
   border-style: solid;
   border-width: 2px;
   border-color: red;
-  flex: 0 0 370;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
   margin-top: 50px;
-  padding-left: 1em;
-  padding-block: 20px;
-}
-
-section,
-a {
-  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 1%;
 }
 
 @media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375) {
+  #about_me {
+    flex-basis: auto;
   }
 }
 
