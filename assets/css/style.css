@@ -1,3 +1,14 @@
+@media screen and (max-width: 450px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  #contact,
+  #project_introduction {
+    scroll-snap-align: start;
+  }
+}
+
 .container {
   /* declare a main container for the flexbox */
   display: flex;
@@ -19,16 +30,16 @@ body {
   background-image: url(../images/ai.png);
   width: auto;
   color: white;
+  /* without the height, the image will only be the height of the block element */
   height: 200px;
-  width: 100%;
+  /* width: 100%; */
   padding: 2em;
+  background-size: cover;
 }
 
-.hero img {
-  /* border-image-width: 100%; */
-  background-size: 100%;
+/* .hero img {
   background-repeat: no-repeat;
-}
+} */
 
 header {
   color: black;
@@ -63,6 +74,7 @@ nav ul {
   padding-left: 5%;
   line-height: 250%;
 }
+
 /* 
     flex-basis: 100%; sets the initial size of the flex item to take up 100% of the available space in the flex container. This means that the flex item will expand to fill the entire width (or height, depending on the flex direction) of the container.
 
@@ -71,6 +83,7 @@ nav ul {
 
 
  */
+
 #about_me {
   flex-grow: 0;
   flex-shrink: 1;
@@ -207,6 +220,7 @@ nav ul {
 @media screen and (max-width: 810px) {
   #about_me {
     flex-basis: 100%;
+    border-right: none;
     /* order: 1; */
   }
   .container {
@@ -234,16 +248,5 @@ nav ul {
     border-right: none;
     border-bottom: thick solid rgba(0, 0, 0, 0.5);
     padding-bottom: 0.5em;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  html {
-    scroll-snap-type: y mandatory;
-  }
-
-  #contact,
-  #projects {
-    scroll-snap-align: start;
   }
 }
