@@ -1,6 +1,6 @@
 @media screen and (max-width: 450px) {
   html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
   }
 
   #contact,
