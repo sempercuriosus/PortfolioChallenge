@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third Cost Programming</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
     <header>
+        <h1 id="head_banner">Third Coast Programming</h1>
+
         <section class="hero">
-            <div>
-            </div>
-            <h1>Third Coast Programming</h1>
+            <section>
+                Welcome!
+            </section>
         </section>
 
         <nav class="navbar">
@@ -27,65 +31,133 @@
                 <a href="#Projects">Projects</a>
             </ul>
         </nav>
-
     </header>
 
+    <section class="container">
 
-
-    <main class="main_wrapper">
         <aside id="about_me">
-            <h2>About Me</h2>
+            <h2 class="title">About Me</h2>
             <img src="./assets//images/eric_developer_pic.jpeg" alt="Developer Profile Image">
-            <p id="name">Eric Hulse</p>
-            <p>This is an about me. Containing information that will make me relate to other human people.</p>
+            <!-- <p id="name">Eric Hulse</p> -->
+            <section id="about_me_blurb">
+                <p>Hi! My name is <span id="dev_name">Eric Hulse</span> and I am a Full Stack Web
+                    Developer with
+                    experience
+                    in:</p>
+                <section id="dev_experience">
+                    <ul>
+                        <li>MERN Stack -
+                            <ul>
+                                <li class="first_letter">MongoDB</li>
+                                <li class="first_letter">Express</li>
+                                <li class="first_letter">React</li>
+                                <li class="first_letter">Node</li>
+                            </ul>
+                        </li>
+                        <li>React and JavaScript
+                        </li>
+                        <li>T-Sql and NoSql
+                        </li>
+                        <li>C#
+                        </li>
+                        <li>dotnet Core
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section id="dev_hobby">
+                    <p>Outside of Web Development I like to:</p>
+                    <ul>
+                        <li>Play Disc Golf
+                        </li>
+                        <li>Hike
+                        </li>
+                        <li>Read
+                        </li>
+                        <li>Be outside exploring places I have been or somewhere new
+                        </li>
+
+                    </ul>
+                </section>
+            </section>
         </aside>
 
-        <section id="contact">
-            <section>
-                <h2>Contact Me</h2>
+        <main class="main">
+            <section id="contact">
+                <h2 class="title">Where I Can Be Found</h2>
                 <ul>
-                    <li>I do not use social media, but you can <a href="mailto:hulse@hey.com">Email Me</a> and I will
+                    <li>I do not use social media, but you can <a href="mailto:hulse@hey.com">Send Me An Email
+                            Me</a>
+                        and I will
                         be
-                        able to return your message</li>
-                    <li>Checkout my GitHub <a href="https://github.com/sempercuriosus">landing page</a> and see what I
+                        able to return your message. </li>
+                    <li>Checkout my GitHub <a href="https://github.com/sempercuriosus">landing page</a> and see what
+                        I
                         am up to</li>
-
                 </ul>
             </section>
-        </section>
 
-        <section id="projects">
-            <section class="project_card">
-                <h2>Don't You Forget About Me</h2>
-                <p>This project was a lot of fun. I wanted to remind my mother in law that I am a person who exits.</p>
-                <iframe class="git_preview" src="https://github.com/sempercuriosus/dont_you_forget_about_me"
-                    title="GitHub Test Project"></iframe>
-                <a href="https://github.com/sempercuriosus/dont_you_forget_about_me">Project GitHub!</a>
+            <section id="projects">
+                <section class="project_introduction">
+                    <h2 class="title"> Behold! My Sample Projects</h2>
+                    <p>Below, I have a handful of projects that I have completed over the years. I have more on by
+                        GitHub page, but these are the ones I liked working on the most, or generally had fun with.</p>
+                </section>
 
+                <section class="project_card">
+                    <section class="project_blurb">
+                        <h3 class="project_title">Don't You Forget About Me</h3>
+                        <p>While planning a family day, my mother-in-law "forgot I was a person", so I decided to
+                            remind her that I was by sending her an email of me every day!
+                        </p>
+                        <a href="https://github.com/sempercuriosus/dont_you_forget_about_me">Project GitHub!</a>
+                    </section>
+                    <section class="project_preview">
+                        <iframe class="git_preview" src="https://github.com/sempercuriosus/dont_you_forget_about_me"
+                            title="GitHub Test Project"></iframe>
+
+                    </section>
+                </section>
+
+                <section class="project_card">
+                    <section class="project_blurb">
+                        <h3 class="project_title">Study Hacks Web Scrape</h3>
+                        <p>I wanted to learn more about Web Scraping, Python, and what <a
+                                href="https://calnewport.com/blog/">Cal Newport</a> has to offer. I hit a
+                            trifecta here with this project.</p>
+                        <a href="https://github.com/sempercuriosus/study_hacks_scrape_public">Project GitHub!</a>
+                    </section>
+                    <section class="project_preview">
+
+                        <iframe class="git_preview" src="https://github.com/sempercuriosus/study_hacks_scrape_public"
+                            title="GitHub Test Project"></iframe>
+
+                    </section>
+                </section>
+
+                <section class="project_card">
+                    <section class="project_blurb">
+                        <h3 class="project_title">DoomsDate</h3>
+                        <p>Taking inspiration from <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John
+                                Conway</a>'s <a href="https://en.wikipedia.org/wiki/Doomsday_rule"> Doomsday
+                                Algorithm</a>,
+                            I made this little script to return the
+                            day of the week any date falls on. </p>
+
+                        <a href="">Project GitHub!</a>
+                    </section>
+                    <section class="project_preview">
+                        <iframe class="git_preview" src="duckduckgo.com" title="GitHub Test Project"></iframe>
+
+                    </section>
+                </section>
             </section>
 
-            <section class="project_card">
-                <h2>Study Hacks Web Scrape</h2>
-                <p>This was my attempt at learning some web scraping techniques with Python.</p>
-                <iframe class="git_preview" src="https://github.com/sempercuriosus/study_hacks_scrape_public"
-                    title="GitHub Test Project"></iframe>
-                <a href="https://github.com/sempercuriosus/study_hacks_scrape_public">Project GitHub!</a>
-
-            </section>
-
-            <section class="project_card">
-                <p>DoomsDate</p>
-                <p>Here is some text. This is not the right tag here, and will need to be updated.</p>
-                <iframe class="git_preview" src="duckduckgo.com" title="GitHub Test Project"></iframe>
-                <a href="">Project GitHub!</a>
-            </section>
-
-
-        </section>
-    </main>
-
-    <footer>
-
+        </main>
+    </section>
+    <footer class="footer">
+        <p>&copy; Third Coast Programming 2023</p>
     </footer>
 </body>
 
