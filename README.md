@@ -24,3 +24,12 @@ SO THAT I can review samples of their work and assess whether they're a good can
     - https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slideleft
     - https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## Challenges
+
+This is my first go at getting things together on my own, and I am really enjoying the process. Here are some issues I had that I worked through:
+
+        - Getting Flexbox to work
+        - Adding a hover overlay that slides in
+        - Refreshing what I know about style
+

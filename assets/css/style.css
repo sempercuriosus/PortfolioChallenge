@@ -31,7 +31,7 @@ body {
   width: auto;
   color: white;
   /* without the height, the image will only be the height of the block element */
-  height: 200px;
+  height: 150px;
   /* width: 100%; */
   padding: 2em;
   background-size: cover;
@@ -191,23 +191,23 @@ nav ul {
 }
 
 .project_link {
-  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.6em;
+  width: 70%;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: large;
 }
 
-.project_link {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008cba;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: 0.5s ease;
-}
-
-.project_card:hover .project_overlay {
-  width: 100%;
+.project_link:hover {
+  background-color: darkorange;
 }
 
 .project_preview {
