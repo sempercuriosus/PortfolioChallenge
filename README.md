@@ -24,12 +24,14 @@ SO THAT I can review samples of their work and assess whether they're a good can
     - https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slideleft
     - https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - I also have used the AI for the class to help me work through some of the aspects of properties after I was stuck and had genuinely tried to figure it out myself.
+    - Color Palette Generated from: https://coolors.co/201e1f-ff4000-faaa8d-feefdd-50b2c0
+    - Lorem Ipsum from: https://loremipsum.io/generator/?n=3&t=s
 
 ## Challenges
 
 This is my first go at getting things together on my own, and I am really enjoying the process. Here are some issues I had that I worked through:
 
         - Getting Flexbox to work
-        - Adding a hover overlay that slides in
+        - Adding a hover overlay that slides in from a specific direction
         - Refreshing what I know about style
-
