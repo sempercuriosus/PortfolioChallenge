@@ -243,6 +243,7 @@ a:visited {
   /* box-shadow 
   x offset, y offset, blur size, spread size, color */
   box-shadow: 0px 0px 20px 7px var(--theme_color_5);
+  background-color: var(--theme_color_3);
 }
 
 .project_link {
