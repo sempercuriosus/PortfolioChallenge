@@ -2,6 +2,14 @@
 
 ---
 
+## Live
+Here is where the webpage can be found! [https://sempercuriosus.github.io/PortfolioChallenge/]
+
+
+<img width="1728" alt="Screenshot 2023-08-02 at 22 59 48" src="https://github.com/sempercuriosus/PortfolioChallenge/assets/31829327/abd7bf86-2641-4a6f-a77a-e82a35a9c649">
+
+---
+
 Challenge is to create a website such that potential employers are able to look at what I have done.
 
 ## User Story
@@ -35,3 +43,4 @@ This is my first go at getting things together on my own, and I am really enjoyi
         - Getting Flexbox to work
         - Adding a hover overlay that slides in from a specific direction
         - Refreshing what I know about style
+
